@@ -1,0 +1,35 @@
+{
+  "name": "mf-cli",
+  "version": "1.0.0",
+  "description": "mf cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard . && tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emkay/mf-cli.git"
+  },
+  "keywords": [
+    "mf",
+    "cli"
+  ],
+  "author": "Michael Matuzak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emkay/mf-cli/issues"
+  },
+  "homepage": "https://github.com/emkay/mf-cli#readme",
+  "dependencies": {
+    "chokidar": "^1.4.2",
+    "homedir": "^0.6.0",
+    "level": "^1.4.0",
+    "level-incr": "0.0.3",
+    "level-sublevel": "^6.5.4",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
+  }
+}
